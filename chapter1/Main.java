@@ -35,6 +35,21 @@ public class Main {
         System.out.println("Find your number: ");
         int num = input.nextInt();
         System.out.println(Arrays.binarySearch(winningCombi, num));
+        //create and instance of a Toy class = Toy object
+
+        /*   this
+        *    is a
+        * multiline 
+        *comment
+*/
+        Toy toy1 = new Toy();
+        toy1.name ="Rage pink";
+        toy1.brand = "Lab Vuvu";
+        toy1.price = 4500;
+        toy1.quantity = 12;
+        System.out.println();
+        ArrayList al = new ArrayList<>();
+        Date date1 = new Date();
     }
 }
 /**
@@ -59,4 +74,22 @@ class Grades{
     int id;
     String subject;
     int rating;
+}
+/**
+ * Plant class creates a Plant object
+ * that has a property branch,name, and leaves
+ */
+class Plant{
+    int branch;
+    String name;
+    int leaves;
+    /**
+     * setBranch modifies the number of leaves
+     */
+    void setBranch(int leaves){
+        this.leaves=leaves;
+    }
+    int getBranch() {
+        return branch;
+    }
 }
