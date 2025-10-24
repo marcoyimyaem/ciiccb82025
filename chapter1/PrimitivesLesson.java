@@ -9,7 +9,7 @@ public class PrimitivesLesson {
         float f = 3.14F;
         double d = 5.1D;
         long i = 56l;
-        char c = 70000;
+        // char c = 70000;
         System.out.println(Short.MAX_VALUE);
     }
 }
