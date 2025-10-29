@@ -1,6 +1,6 @@
 package chapter2;
 
-public class IfStatementLesson {
+public class IfSwitchStatementLesson {
     public static void main(String[] args) {
         int hourOfDay=22;
         if(hourOfDay<11)
