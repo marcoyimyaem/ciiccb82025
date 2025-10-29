@@ -11,7 +11,6 @@ public class LoopsLesson {
         while(a<=10)
             System.out.println("a = "+a++);
        
-
         do
             System.out.println("do while : a = "+a--);
         while (a<10);
