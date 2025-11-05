@@ -19,5 +19,6 @@ public class StringLesson {
         System.out.println(word1);
         String trimSample = "       \t \n \t Marc Yim          \t \n";
         System.out.println(trimSample.trim());
+        
     }
 }
