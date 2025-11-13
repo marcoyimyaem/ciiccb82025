@@ -13,7 +13,7 @@ public class MainTest {
 LocalDate date4 = LocalDate.of(2025, 7, 1);
     @Test
     void TestDateOrdinalST(){
-        assertTrue(DatesAndTimeLesson.dateOrdinalString(date4).contains("sst"), "the message must contains \"st\" suffix ");
+        assertTrue(DatesAndTimeLesson.dateOrdinalString(date4).contains("st"), "the message must contains \"st\" suffix ");
         
     }
     @Test
