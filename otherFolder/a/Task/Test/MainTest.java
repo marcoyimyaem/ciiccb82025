@@ -7,6 +7,7 @@ import java.time.LocalDate;
 import org.junit.jupiter.api.Test;
 
 import chapter3.DatesAndTimeLesson;
+import chapter4.VarArgsLesson;
 
 
 public class MainTest {
@@ -28,5 +29,11 @@ LocalDate date4 = LocalDate.of(2025, 7, 1);
     void TestDateOrdinalTH(){
         assertTrue(DatesAndTimeLesson.dateOrdinalString(date4.plusDays(3)).contains("th"), "the message must contains \"th\" suffix ");
         assertTrue(DatesAndTimeLesson.dateOrdinalString(date4.plusDays(4)).contains("th"), "the message must contains \"th\" suffix ");
+    }
+    @Test
+    void TestSumOfAll(){
+        VarArgsLesson vl = new VarArgsLesson();
+        assertTrue(vl.sumOfAllNums(1,2,3,4,5,6,7,8,9,10)==55,"invalid value");
+        assertTrue(vl.sumOfAllNums(1,2,3,4,5)==15,"invalid value");
     }
 }
